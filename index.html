@@ -1,0 +1,1604 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>国产黑料最新爆料_深度观察与影像档案 | 揭影社官方网站</title>
+<meta name="description" content="揭影社是专注国产黑料最新爆料的视频品牌官网，以原创高清影像、深度访谈与企业级内容生态，为创作者和观众提供值得信赖的观察平台。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23161a1f'/%3E%3Cpath d='M20 18h9v10h-9zM35 18h9v28h-9zM20 36h9v10h-9z' fill='%23e8483f'/%3E%3C/svg%3E">
+<style>
+:root{
+  --jy-ink:#161a1f;
+  --jy-ink-2:#20262e;
+  --jy-paper:#f4f2ee;
+  --jy-paper-2:#ffffff;
+  --jy-red:#e8483f;
+  --jy-red-deep:#b32b24;
+  --jy-line:#d8d3ca;
+  --jy-muted:#6f6a62;
+  --jy-gold:#c9a227;
+  --jy-radius:4px;
+  --jy-shell:1180px;
+  --jy-sticky:104px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--jy-paper);
+  color:var(--jy-ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:800;letter-spacing:.01em;}
+p{margin:0 0 1em;}
+ul,ol{margin:0;padding-left:1.2em;}
+button{font-family:inherit;cursor:pointer;}
+.jy-shell{width:min(var(--jy-shell),calc(100% - 40px));margin-inline:auto;}
+.jy-anchor{scroll-margin-top:calc(var(--jy-sticky) + 16px);}
+
+/* ---------- 吸顶公告 + 页头 ---------- */
+.jy-topbar{
+  position:sticky;top:0;z-index:60;
+  background:var(--jy-ink);
+  color:#eee;
+}
+.jy-notice{
+  display:flex;align-items:center;gap:14px;
+  font-size:13px;letter-spacing:.02em;
+  padding:8px 0;
+  border-bottom:1px solid rgba(255,255,255,.12);
+}
+.jy-notice-badge{
+  flex:none;background:var(--jy-red);color:#fff;
+  font-weight:700;font-size:11px;letter-spacing:.14em;
+  padding:2px 8px;border-radius:2px;
+}
+.jy-notice-track{overflow:hidden;flex:1;min-width:0;}
+.jy-notice-line{
+  display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  color:#d9d5cd;
+}
+.jy-notice-line strong{color:#fff;font-weight:600;}
+.jy-header{
+  background:var(--jy-ink-2);
+  color:#fff;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.jy-header-inner{
+  display:flex;align-items:center;gap:22px;
+  min-height:64px;
+  padding-block:10px;
+}
+.jy-brand{display:flex;align-items:center;gap:10px;flex:none;}
+.jy-brand-mark{
+  width:34px;height:34px;border-radius:8px;
+  background:linear-gradient(140deg,var(--jy-red),var(--jy-red-deep));
+  display:grid;place-items:center;font-weight:900;font-size:16px;color:#fff;
+}
+.jy-brand-text b{display:block;font-size:17px;letter-spacing:.06em;}
+.jy-brand-text span{display:block;font-size:10px;letter-spacing:.24em;color:#9c9690;text-transform:uppercase;}
+.jy-nav{display:flex;gap:4px;flex:1;flex-wrap:wrap;}
+.jy-nav a{
+  font-size:14px;color:#cfcac3;padding:8px 11px;border-radius:var(--jy-radius);
+  transition:color .18s,background .18s;
+}
+.jy-nav a:hover{color:#fff;background:rgba(255,255,255,.08);}
+.jy-header-tools{display:flex;align-items:center;gap:10px;flex:none;}
+.jy-search{position:relative;display:flex;}
+.jy-search input{
+  width:190px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);
+  color:#fff;border-radius:var(--jy-radius);padding:7px 34px 7px 11px;font-size:13px;outline:none;
+}
+.jy-search input::placeholder{color:#9b958e;}
+.jy-search input:focus{border-color:var(--jy-red);background:rgba(255,255,255,.13);}
+.jy-search button{
+  position:absolute;right:2px;top:2px;bottom:2px;width:30px;
+  background:transparent;border:0;color:#d7d2cb;font-size:14px;border-radius:3px;
+}
+.jy-menu-toggle{
+  display:none;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+  color:#fff;border-radius:var(--jy-radius);padding:6px 10px;font-size:14px;
+}
+.jy-search-feedback{
+  position:absolute;top:calc(100% + 8px);right:0;width:290px;
+  background:#fff;color:var(--jy-ink);border-radius:var(--jy-radius);
+  box-shadow:0 14px 36px rgba(0,0,0,.28);padding:12px 14px;font-size:13px;display:none;z-index:70;
+}
+.jy-search-feedback.is-open{display:block;}
+.jy-search-feedback b{color:var(--jy-red-deep);}
+.jy-search-feedback ul{margin:6px 0 0;padding-left:16px;color:var(--jy-muted);}
+
+/* ---------- 首屏 全幅主视觉背景与浮动文字 ---------- */
+.jy-hero{position:relative;background:var(--jy-ink);color:#fff;overflow:hidden;}
+.jy-hero-media{position:relative;}
+.jy-hero-media svg{width:100%;height:auto;display:block;}
+.jy-hero-overlay{
+  position:relative;
+  margin-top:-360px;
+  padding-bottom:56px;
+  background:linear-gradient(180deg,rgba(16,20,25,0) 0%,rgba(16,20,25,.82) 42%,rgba(16,20,25,.97) 100%);
+}
+@media(max-width:820px){
+  .jy-hero-media svg{height:320px;object-fit:cover;}
+  .jy-hero-overlay{margin-top:-250px;}
+}
+.jy-hero-eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:12px;letter-spacing:.28em;color:var(--jy-gold);text-transform:uppercase;
+  margin-bottom:14px;
+}
+.jy-hero-eyebrow::before{content:"";width:34px;height:1px;background:var(--jy-gold);}
+.jy-hero h1{
+  font-size:clamp(30px,4.6vw,56px);
+  letter-spacing:.02em;
+  margin-bottom:18px;
+}
+.jy-hero h1 em{font-style:normal;color:var(--jy-red);}
+.jy-hero-lead{
+  max-width:760px;color:#d5d0c8;font-size:16px;
+}
+.jy-hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 24px;}
+.jy-hero-tags span{
+  font-size:12px;padding:3px 10px;border:1px solid rgba(255,255,255,.24);
+  border-radius:999px;color:#cec9c1;
+}
+.jy-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:34px;}
+.jy-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:var(--jy-radius);
+  font-size:14px;font-weight:700;letter-spacing:.04em;border:1px solid transparent;
+  transition:transform .16s,background .18s,color .18s,border-color .18s;
+}
+.jy-btn:hover{transform:translateY(-2px);}
+.jy-btn-primary{background:var(--jy-red);color:#fff;}
+.jy-btn-primary:hover{background:var(--jy-red-deep);}
+.jy-btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.4);}
+.jy-btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.08);}
+.jy-hero-intro{
+  border-left:3px solid var(--jy-red);
+  padding-left:18px;max-width:820px;
+  color:#c3beb7;font-size:15px;
+}
+.jy-statbar{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:1px;background:rgba(255,255,255,.14);
+  border:1px solid rgba(255,255,255,.14);
+  margin-top:30px;border-radius:var(--jy-radius);overflow:hidden;
+}
+.jy-statbar div{background:#191e24;padding:16px 18px;}
+.jy-statbar b{display:block;font-size:26px;color:#fff;letter-spacing:.02em;}
+.jy-statbar span{font-size:12px;color:#9b958e;letter-spacing:.08em;}
+
+/* ---------- 通用 section 头 ---------- */
+.jy-main{padding:8px 0 20px;}
+.jy-section{padding:52px 0;}
+.jy-section + .jy-section{border-top:1px solid var(--jy-line);}
+.jy-sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px;flex-wrap:wrap;}
+.jy-sec-head h2{
+  font-size:clamp(22px,2.6vw,30px);
+  position:relative;padding-bottom:12px;
+}
+.jy-sec-head h2::after{
+  content:"";position:absolute;left:0;bottom:0;width:52px;height:3px;background:var(--jy-red);
+}
+.jy-sec-head p{margin:0;color:var(--jy-muted);font-size:14px;max-width:520px;}
+.jy-sec-no{
+  font-size:12px;letter-spacing:.3em;color:var(--jy-red);font-weight:700;
+  display:block;margin-bottom:8px;
+}
+
+/* ---------- 焦点内容（一幅重点大图 + 文字列表） ---------- */
+.jy-focus-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:30px;align-items:start;}
+@media(max-width:900px){.jy-focus-grid{grid-template-columns:1fr;}}
+.jy-focus-main{background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);overflow:hidden;}
+.jy-focus-main figure{margin:0;position:relative;background:#1b2027;}
+.jy-focus-main figure svg{width:100%;height:auto;display:block;}
+.jy-play{
+  position:absolute;right:16px;bottom:16px;
+  width:48px;height:48px;border-radius:50%;
+  background:rgba(232,72,63,.92);color:#fff;display:grid;place-items:center;
+  font-size:16px;box-shadow:0 6px 20px rgba(0,0,0,.4);border:0;
+}
+.jy-focus-body{padding:20px 22px 24px;}
+.jy-focus-body h3{font-size:20px;margin-bottom:10px;}
+.jy-meta{font-size:12px;color:var(--jy-muted);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:10px;margin-bottom:10px;}
+.jy-meta b{color:var(--jy-red-deep);}
+.jy-tag{
+  display:inline-block;font-size:11px;padding:1px 8px;border-radius:2px;
+  background:#efece6;color:#6b665f;margin-right:6px;letter-spacing:.04em;
+}
+.jy-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px;}
+.jy-act{
+  font-size:12px;padding:5px 12px;border-radius:999px;
+  border:1px solid var(--jy-line);background:#fff;color:#55504a;display:inline-flex;align-items:center;gap:6px;
+  transition:background .16s,color .16s,border-color .16s;
+}
+.jy-act:hover{border-color:var(--jy-red);color:var(--jy-red-deep);}
+.jy-act.is-liked{background:#fdeceb;border-color:var(--jy-red);color:var(--jy-red-deep);}
+.jy-act.is-saved{background:#fdf7e3;border-color:var(--jy-gold);color:#8b6f0c;}
+
+.jy-focus-list{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--jy-line);}
+.jy-focus-item{
+  display:grid;grid-template-columns:38px minmax(0,1fr);gap:14px;
+  padding:16px 0;border-bottom:1px solid var(--jy-line);
+}
+.jy-focus-item .jy-no{
+  font-size:20px;font-weight:900;color:#cfc9c1;font-family:Georgia,serif;line-height:1;
+}
+.jy-focus-item h3{font-size:15.5px;margin-bottom:6px;}
+.jy-focus-item p{font-size:13px;color:var(--jy-muted);margin:0 0 8px;line-height:1.65;}
+.jy-inline-meta{font-size:11.5px;color:#8b857d;display:flex;gap:12px;flex-wrap:wrap;}
+
+/* ---------- 关键词解析（长文） ---------- */
+.jy-analysis{background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);padding:32px 34px;}
+@media(max-width:700px){.jy-analysis{padding:22px 18px;}}
+.jy-analysis h2{margin-bottom:18px;font-size:clamp(22px,2.6vw,28px);}
+.jy-analysis h3{font-size:18px;margin:26px 0 10px;padding-left:12px;border-left:4px solid var(--jy-red);}
+.jy-analysis p{font-size:15px;color:#3a3a3a;text-indent:0;}
+.jy-analysis .jy-quote{
+  margin:20px 0;padding:14px 18px;background:#f7f4ef;border-left:3px solid var(--jy-gold);
+  font-size:14px;color:#5c574f;
+}
+.jy-two-col{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:18px 0;}
+@media(max-width:760px){.jy-two-col{grid-template-columns:1fr;}}
+
+/* ---------- 视频流（三列等高卡片） ---------- */
+.jy-video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+@media(max-width:920px){.jy-video-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:620px){.jy-video-grid{grid-template-columns:1fr;}}
+.jy-vcard{
+  background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);
+  display:flex;flex-direction:column;overflow:hidden;
+  transition:transform .18s,box-shadow .18s,border-color .18s;
+}
+.jy-vcard:hover{transform:translateY(-4px);box-shadow:0 16px 34px rgba(22,26,31,.12);border-color:#bfb9b0;}
+.jy-vcard figure{margin:0;background:#1d232a;position:relative;}
+.jy-vcard figure svg{width:100%;height:auto;display:block;}
+.jy-vcard figure .jy-dur{
+  position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.72);color:#fff;
+  font-size:11px;padding:1px 7px;border-radius:2px;letter-spacing:.04em;
+}
+.jy-vcard-body{padding:16px 17px 18px;display:flex;flex-direction:column;flex:1;}
+.jy-vcard-body h3{font-size:16px;margin-bottom:8px;}
+.jy-vcard-body p{font-size:13px;color:var(--jy-muted);margin:0 0 10px;flex:1;}
+.jy-vcard .jy-inline-meta{margin-bottom:12px;}
+
+/* ---------- 专题 / 企划 ---------- */
+.jy-topic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;}
+@media(max-width:820px){.jy-topic-grid{grid-template-columns:1fr;}}
+.jy-topic{
+  border:1px solid var(--jy-line);border-radius:var(--jy-radius);background:var(--jy-paper-2);
+  padding:22px 24px;display:flex;flex-direction:column;
+}
+.jy-topic.feature{
+  grid-column:1 / -1;background:var(--jy-ink-2);color:#eee;border-color:#2c333c;
+}
+.jy-topic.feature h3{color:#fff;}
+.jy-topic.feature p{color:#b9b4ac;}
+.jy-topic.feature li{color:#cfcac2;}
+.jy-topic-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px;flex-wrap:wrap;}
+.jy-topic h3{font-size:18px;}
+.jy-status{
+  font-size:11px;padding:2px 9px;border-radius:999px;letter-spacing:.06em;
+  background:#fdeceb;color:var(--jy-red-deep);font-weight:700;white-space:nowrap;
+}
+.jy-topic.feature .jy-status{background:rgba(232,72,63,.18);color:#ff9b95;}
+.jy-status.is-ongoing{background:#eef4e6;color:#4f6a2c;}
+.jy-topic p{font-size:13.5px;color:var(--jy-muted);}
+.jy-topic ul{list-style:none;padding:0;margin:10px 0 0;font-size:13px;}
+.jy-topic li{padding:7px 0;border-top:1px dashed var(--jy-line);display:flex;gap:8px;}
+.jy-topic.feature li{border-top-color:rgba(255,255,255,.14);}
+.jy-topic li span{color:var(--jy-red);font-weight:700;flex:none;}
+
+/* ---------- 创作者（双列简介） ---------- */
+.jy-author-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;}
+@media(max-width:860px){.jy-author-grid{grid-template-columns:1fr;}}
+.jy-author{
+  display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;
+  background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);
+  padding:20px 22px;
+}
+.jy-avatar{
+  width:72px;height:72px;border-radius:50%;overflow:hidden;display:grid;place-items:center;
+  font-size:26px;font-weight:900;color:#fff;letter-spacing:.02em;
+}
+.jy-author h3{font-size:17px;margin-bottom:4px;}
+.jy-author .jy-field{font-size:12px;color:var(--jy-red-deep);letter-spacing:.04em;margin-bottom:6px;}
+.jy-author p{font-size:13px;color:var(--jy-muted);margin:0 0 8px;}
+.jy-author-data{display:flex;gap:16px;font-size:12px;color:#7d776f;margin-bottom:10px;}
+.jy-author-data b{color:var(--jy-ink);font-size:14px;}
+.jy-link-btn{
+  display:inline-block;font-size:12px;font-weight:700;color:var(--jy-red-deep);
+  border-bottom:1px solid rgba(232,72,63,.4);padding-bottom:1px;background:none;border-top:0;border-left:0;border-right:0;
+}
+
+/* ---------- 排行榜 ---------- */
+.jy-rank-wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;}
+@media(max-width:900px){.jy-rank-wrap{grid-template-columns:1fr;}}
+.jy-rank{background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);padding:20px 22px;}
+.jy-rank h3{font-size:16px;margin-bottom:14px;display:flex;align-items:center;gap:8px;}
+.jy-rank h3::before{content:"";width:8px;height:8px;background:var(--jy-red);display:inline-block;transform:rotate(45deg);}
+.jy-rank ol{list-style:none;padding:0;margin:0;counter-reset:jyrank;}
+.jy-rank li{
+  counter-increment:jyrank;display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:10px;
+  align-items:center;padding:9px 0;border-top:1px dashed var(--jy-line);font-size:13.5px;
+}
+.jy-rank li:first-child{border-top:0;}
+.jy-rank li::before{
+  content:counter(jyrank);font-family:Georgia,serif;font-weight:900;color:#c9c3bb;font-size:15px;
+}
+.jy-rank li:nth-child(1)::before{color:var(--jy-red);}
+.jy-rank li:nth-child(2)::before{color:#c9a227;}
+.jy-rank .jy-heat{font-size:11.5px;color:#8b857d;white-space:nowrap;}
+
+/* ---------- 评论（引用摘录 + 评分摘要） ---------- */
+.jy-review-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:28px;align-items:start;}
+@media(max-width:880px){.jy-review-layout{grid-template-columns:1fr;}}
+.jy-score{
+  background:var(--jy-ink-2);color:#fff;border-radius:var(--jy-radius);padding:26px 24px;text-align:center;
+}
+.jy-score b{display:block;font-size:52px;line-height:1;font-family:Georgia,serif;color:var(--jy-gold);}
+.jy-score span{font-size:12px;color:#a8a29a;letter-spacing:.16em;}
+.jy-score .jy-stars{color:var(--jy-gold);letter-spacing:.24em;font-size:15px;margin:10px 0 6px;}
+.jy-score-bars{margin-top:18px;text-align:left;font-size:12px;color:#b5afa7;}
+.jy-score-bars div{display:flex;align-items:center;gap:8px;margin-bottom:7px;}
+.jy-score-bars i{flex:1;height:6px;background:rgba(255,255,255,.14);border-radius:99px;overflow:hidden;font-style:normal;}
+.jy-score-bars i em{display:block;height:100%;background:var(--jy-red);font-style:normal;}
+.jy-reviews{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;}
+@media(max-width:640px){.jy-reviews{grid-template-columns:1fr;}}
+.jy-review{
+  background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);
+  padding:16px 18px;font-size:13.5px;color:#4b4740;
+}
+.jy-review blockquote{margin:0 0 10px;position:relative;padding-left:16px;}
+.jy-review blockquote::before{
+  content:"“";position:absolute;left:0;top:-6px;font-size:26px;color:var(--jy-red);font-family:Georgia,serif;
+}
+.jy-review footer{font-size:12px;color:var(--jy-muted);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;}
+.jy-review footer b{color:var(--jy-ink);}
+
+/* ---------- 企业动态 + 合作 + FAQ ---------- */
+.jy-support-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:start;}
+@media(max-width:900px){.jy-support-grid{grid-template-columns:1fr;}}
+.jy-news{list-style:none;padding:0;margin:0;}
+.jy-news li{
+  display:grid;grid-template-columns:88px minmax(0,1fr);gap:16px;
+  padding:14px 0;border-top:1px solid var(--jy-line);align-items:start;
+}
+.jy-news li:first-child{border-top:0;padding-top:0;}
+.jy-news time{font-size:12px;color:var(--jy-red-deep);font-weight:700;letter-spacing:.06em;padding-top:2px;}
+.jy-news h3{font-size:15px;margin-bottom:4px;}
+.jy-news p{font-size:13px;color:var(--jy-muted);margin:0;}
+.jy-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+.jy-partner{
+  border:1px solid var(--jy-line);border-radius:var(--jy-radius);background:var(--jy-paper-2);
+  padding:14px 16px;font-size:13px;color:#5b564f;display:flex;align-items:center;gap:10px;
+}
+.jy-partner i{
+  width:26px;height:26px;border-radius:6px;display:grid;place-items:center;font-style:normal;
+  font-weight:900;font-size:12px;color:#fff;flex:none;
+}
+.jy-faq-list{margin-top:26px;}
+.jy-faq-list details{
+  background:var(--jy-paper-2);border:1px solid var(--jy-line);border-radius:var(--jy-radius);
+  margin-bottom:10px;padding:0 18px;
+}
+.jy-faq-list summary{
+  cursor:pointer;list-style:none;font-weight:700;font-size:14.5px;padding:14px 0;
+  display:flex;justify-content:space-between;gap:12px;align-items:center;
+}
+.jy-faq-list summary::-webkit-details-marker{display:none;}
+.jy-faq-list summary::after{content:"＋";color:var(--jy-red);font-weight:700;}
+.jy-faq-list details[open] summary::after{content:"－";}
+.jy-faq-list details p{font-size:13.5px;color:var(--jy-muted);margin:0 0 14px;border-top:1px dashed var(--jy-line);padding-top:12px;}
+
+/* ---------- 页脚 ---------- */
+.jy-footer{background:var(--jy-ink);color:#b7b1a9;padding:48px 0 26px;margin-top:20px;}
+.jy-footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.1fr;gap:30px;}
+@media(max-width:900px){.jy-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+@media(max-width:560px){.jy-footer-grid{grid-template-columns:1fr;}}
+.jy-footer h3{color:#fff;font-size:14px;margin-bottom:14px;letter-spacing:.08em;}
+.jy-footer p{font-size:13px;line-height:1.8;}
+.jy-footer ul{list-style:none;padding:0;margin:0;font-size:13px;}
+.jy-footer li{margin-bottom:8px;}
+.jy-footer a:hover{color:#fff;}
+.jy-footer-bottom{
+  margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);
+  display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#8c867f;
+}
+
+/* ---------- 模态 / toast / 回顶 ---------- */
+.jy-modal{
+  position:fixed;inset:0;z-index:120;background:rgba(15,18,22,.72);
+  display:none;place-items:center;padding:24px;
+}
+.jy-modal.is-open{display:grid;}
+.jy-modal-box{
+  background:#fff;color:var(--jy-ink);border-radius:6px;max-width:560px;width:100%;
+  padding:26px 28px;max-height:86vh;overflow:auto;position:relative;
+}
+.jy-modal-box h3{font-size:19px;margin-bottom:8px;padding-right:30px;}
+.jy-modal-box p,.jy-modal-box li{font-size:14px;color:#4f4a44;}
+.jy-modal-close{
+  position:absolute;right:12px;top:10px;border:0;background:#f1ede7;border-radius:50%;
+  width:30px;height:30px;font-size:15px;color:#6d6760;
+}
+.jy-form-row{margin-bottom:12px;}
+.jy-form-row label{display:block;font-size:12px;color:var(--jy-muted);margin-bottom:4px;letter-spacing:.04em;}
+.jy-form-row input,.jy-form-row textarea{
+  width:100%;border:1px solid var(--jy-line);border-radius:4px;padding:9px 11px;font-size:14px;font-family:inherit;
+}
+.jy-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);
+  background:var(--jy-ink);color:#fff;padding:10px 20px;border-radius:999px;font-size:13px;
+  opacity:0;pointer-events:none;transition:opacity .22s,transform .22s;z-index:200;
+  box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+.jy-toast.is-show{opacity:1;transform:translate(-50%,0);}
+.jy-backtop{
+  position:fixed;right:22px;bottom:24px;width:44px;height:44px;border-radius:50%;
+  background:var(--jy-red);color:#fff;border:0;font-size:17px;z-index:90;
+  opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;transform:translateY(10px);
+  box-shadow:0 8px 24px rgba(232,72,63,.4);
+}
+.jy-backtop.is-show{opacity:1;pointer-events:auto;transform:translateY(0);}
+
+@media(max-width:820px){
+  .jy-nav{display:none;width:100%;flex-direction:column;order:5;}
+  .jy-nav.is-open{display:flex;}
+  .jy-header-inner{flex-wrap:wrap;gap:12px;}
+  .jy-menu-toggle{display:block;margin-left:auto;}
+  .jy-search input{width:140px;}
+  .jy-search-feedback{width:260px;}
+  .jy-hero-overlay{padding-bottom:40px;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- S1 公告条 + 页头 -->
+<div class="jy-topbar">
+  <div class="jy-shell">
+    <div class="jy-notice">
+      <span class="jy-notice-badge">最新爆料</span>
+      <div class="jy-notice-track">
+        <span class="jy-notice-line"><strong>第 47 期「国产黑料最新爆料·影像核查档案」已上线</strong>　·　新增 6 支原创高清调查短片　·　创作者投稿通道现已开放报名</span>
+      </div>
+    </div>
+  </div>
+  <div class="jy-header">
+    <div class="jy-shell jy-header-inner">
+      <a class="jy-brand" href="#jy-top" aria-label="揭影社官方网站首页">
+        <span class="jy-brand-mark">揭</span>
+        <span class="jy-brand-text"><b>揭影社</b><span>JIYING MEDIA</span></span>
+      </a>
+      <nav class="jy-nav" id="jyNav" aria-label="主导航">
+        <a href="#jy-focus">焦点爆料</a>
+        <a href="#jy-analysis">关键词解析</a>
+        <a href="#jy-videos">视频档案</a>
+        <a href="#jy-topics">专题企划</a>
+        <a href="#jy-authors">创作者</a>
+        <a href="#jy-rank">数据榜单</a>
+        <a href="#jy-reviews">口碑评价</a>
+        <a href="#jy-support">企业动态</a>
+      </nav>
+      <div class="jy-header-tools">
+        <div class="jy-search">
+          <input type="search" id="jySearchInput" placeholder="搜索爆料 / 创作者" aria-label="站内搜索">
+          <button type="button" id="jySearchBtn" aria-label="执行搜索">⌕</button>
+          <div class="jy-search-feedback" id="jySearchFeedback" role="status" aria-live="polite"></div>
+        </div>
+        <button class="jy-menu-toggle" type="button" id="jyMenuToggle" aria-expanded="false" aria-controls="jyNav">菜单</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="jy-main" id="jy-top">
+
+  <!-- S2 品牌首屏：全幅主视觉背景与浮动文字 -->
+  <section class="jy-hero jy-anchor" id="jy-hero" aria-labelledby="jyHeroTitle">
+    <div class="jy-hero-media" aria-hidden="true">
+      <svg viewBox="0 0 1600 780" role="img" aria-label="揭影社调查团队在暗调档案室中核对影像素材的主视觉插画">
+        <defs>
+          <linearGradient id="jySkyG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1b222b"/>
+            <stop offset="0.55" stop-color="#242c36"/>
+            <stop offset="1" stop-color="#141a20"/>
+          </linearGradient>
+          <linearGradient id="jyBeamG" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#e8483f" stop-opacity="0.55"/>
+            <stop offset="1" stop-color="#e8483f" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="jyFilmG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#3a444f"/>
+            <stop offset="1" stop-color="#20262e"/>
+          </linearGradient>
+        </defs>
+        <rect width="1600" height="780" fill="url(#jySkyG)"/>
+        <!-- 档案柜背景 -->
+        <g opacity="0.5">
+          <rect x="60" y="180" width="180" height="520" rx="6" fill="#252d36"/>
+          <rect x="86" y="210" width="128" height="86" rx="4" fill="#2e3742"/>
+          <rect x="86" y="312" width="128" height="86" rx="4" fill="#2e3742"/>
+          <rect x="86" y="414" width="128" height="86" rx="4" fill="#2e3742"/>
+          <rect x="86" y="516" width="128" height="86" rx="4" fill="#2e3742"/>
+          <rect x="135" y="240" width="30" height="6" rx="3" fill="#c9a227"/>
+          <rect x="135" y="342" width="30" height="6" rx="3" fill="#c9a227"/>
+        </g>
+        <!-- 彩色光线 -->
+        <path d="M300 0 L520 780 L360 780 L200 0 Z" fill="url(#jyBeamG)" opacity="0.35"/>
+        <!-- 胶片条 -->
+        <g transform="rotate(-8 900 400)">
+          <rect x="600" y="240" width="780" height="200" rx="12" fill="url(#jyFilmG)"/>
+          <g fill="#11161b">
+            <rect x="620" y="256" width="24" height="16" rx="2"/>
+            <rect x="672" y="256" width="24" height="16" rx="2"/>
+            <rect x="724" y="256" width="24" height="16" rx="2"/>
+            <rect x="776" y="256" width="24" height="16" rx="2"/>
+            <rect x="828" y="256" width="24" height="16" rx="2"/>
+            <rect x="880" y="256" width="24" height="16" rx="2"/>
+            <rect x="932" y="256" width="24" height="16" rx="2"/>
+            <rect x="984" y="256" width="24" height="16" rx="2"/>
+            <rect x="1036" y="256" width="24" height="16" rx="2"/>
+            <rect x="1088" y="256" width="24" height="16" rx="2"/>
+            <rect x="1140" y="256" width="24" height="16" rx="2"/>
+            <rect x="1192" y="256" width="24" height="16" rx="2"/>
+            <rect x="1244" y="256" width="24" height="16" rx="2"/>
+            <rect x="1296" y="256" width="24" height="16" rx="2"/>
+            <rect x="620" y="408" width="24" height="16" rx="2"/>
+            <rect x="672" y="408" width="24" height="16" rx="2"/>
+            <rect x="724" y="408" width="24" height="16" rx="2"/>
+            <rect x="776" y="408" width="24" height="16" rx="2"/>
+            <rect x="828" y="408" width="24" height="16" rx="2"/>
+            <rect x="880" y="408" width="24" height="16" rx="2"/>
+            <rect x="932" y="408" width="24" height="16" rx="2"/>
+            <rect x="984" y="408" width="24" height="16" rx="2"/>
+            <rect x="1036" y="408" width="24" height="16" rx="2"/>
+            <rect x="1088" y="408" width="24" height="16" rx="2"/>
+            <rect x="1140" y="408" width="24" height="16" rx="2"/>
+            <rect x="1192" y="408" width="24" height="16" rx="2"/>
+            <rect x="1244" y="408" width="24" height="16" rx="2"/>
+            <rect x="1296" y="408" width="24" height="16" rx="2"/>
+          </g>
+          <g fill="#39434e">
+            <rect x="628" y="288" width="200" height="104" rx="4"/>
+            <rect x="848" y="288" width="200" height="104" rx="4"/>
+            <rect x="1068" y="288" width="200" height="104" rx="4"/>
+          </g>
+          <g fill="#e8483f" opacity="0.85">
+            <rect x="628" y="288" width="200" height="8"/>
+          </g>
+          <g fill="#c9a227" opacity="0.8">
+            <rect x="848" y="376" width="200" height="8"/>
+          </g>
+        </g>
+        <!-- 放大镜 -->
+        <g transform="translate(1180 470)">
+          <circle cx="0" cy="0" r="96" fill="none" stroke="#e8483f" stroke-width="10" opacity="0.9"/>
+          <circle cx="0" cy="0" r="76" fill="#1a2027" opacity="0.6"/>
+          <path d="M64 64 L156 156" stroke="#e8483f" stroke-width="16" stroke-linecap="round" opacity="0.9"/>
+          <path d="M-30 -18 q30 -26 62 0" stroke="#c9a227" stroke-width="6" fill="none" opacity="0.7"/>
+        </g>
+        <!-- 数据网格 -->
+        <g stroke="#4a545f" stroke-width="1" opacity="0.28">
+          <path d="M0 660 H1600"/>
+          <path d="M0 700 H1600"/>
+          <path d="M0 740 H1600"/>
+        </g>
+        <g fill="#e8483f" opacity="0.55">
+          <circle cx="420" cy="120" r="5"/>
+          <circle cx="470" cy="96" r="3"/>
+          <circle cx="380" cy="160" r="3"/>
+        </g>
+      </svg>
+    </div>
+    <div class="jy-hero-overlay">
+      <div class="jy-shell">
+        <span class="jy-hero-eyebrow">品牌官网 · 原创影像档案</span>
+        <h1 id="jyHeroTitle">国产黑料最新爆料</h1>
+        <p class="jy-hero-lead">揭影社是深耕国产内容观察领域的视频品牌与内容平台，以原创、高清、可核查的调查影像，记录每一次爆料背后的证据链、行业逻辑与真实人物。</p>
+        <div class="jy-hero-tags">
+          <span># 影像核查</span>
+          <span># 创作者社区</span>
+          <span># 深度访谈</span>
+          <span># 企业级内容生态</span>
+        </div>
+        <div class="jy-hero-actions">
+          <a class="jy-btn jy-btn-primary" href="#jy-videos">观看最新视频档案</a>
+          <a class="jy-btn jy-btn-ghost" href="#jy-authors">认识创作者</a>
+          <a class="jy-btn jy-btn-ghost" href="#jy-support" id="jyOpenSubmitHero">我要投稿</a>
+        </div>
+        <div class="jy-hero-intro">
+          作为国内持续运营的国产黑料最新爆料品牌，揭影社致力于为创作者、企业与观众搭建高品质内容生态：从线索核实、影像拍摄到社区讨论，全流程坚持真实、专业与用户至上，让每一条爆料都有据可查、有影像可看、有讨论可延续。
+        </div>
+        <div class="jy-statbar">
+          <div><b>1,860+</b><span>原创高清视频档案</span></div>
+          <div><b>312</b><span>签约与社区创作者</span></div>
+          <div><b>5,400 万</b><span>累计有效播放</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 焦点内容：一幅重点大图 + 文字列表 -->
+  <section class="jy-section jy-anchor" id="jy-focus" aria-labelledby="jyFocusTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">01 / 焦点爆料</span>
+          <h2 id="jyFocusTitle">本期首推：国产黑料最新爆料的证据链现场</h2>
+        </div>
+        <p>编辑部从 40 余条线索中筛出 5 条进入拍摄流程，每条都附原始素材时间码与受访人授权说明。</p>
+      </div>
+      <div class="jy-focus-grid">
+        <article class="jy-focus-main">
+          <figure>
+            <svg viewBox="0 0 800 450" role="img" aria-label="调查记者在深夜剪辑室逐帧比对国产黑料素材的画面插画">
+              <defs>
+                <linearGradient id="jyEditG" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#232b34"/>
+                  <stop offset="1" stop-color="#151a20"/>
+                </linearGradient>
+              </defs>
+              <rect width="800" height="450" fill="url(#jyEditG)"/>
+              <rect x="60" y="60" width="420" height="250" rx="6" fill="#2c353f"/>
+              <rect x="76" y="76" width="388" height="200" rx="3" fill="#10151a"/>
+              <g fill="#3d4854">
+                <rect x="90" y="196" width="360" height="10"/>
+                <rect x="90" y="216" width="300" height="10"/>
+                <rect x="90" y="236" width="340" height="10"/>
+              </g>
+              <g fill="#e8483f">
+                <rect x="90" y="196" width="120" height="10"/>
+                <rect x="150" y="236" width="80" height="10"/>
+              </g>
+              <path d="M76 160 L464 130 L464 140 L76 172 Z" fill="#c9a227" opacity="0.55"/>
+              <rect x="90" y="290" width="360" height="6" rx="3" fill="#39434e"/>
+              <circle cx="240" cy="293" r="7" fill="#e8483f"/>
+              <rect x="520" y="60" width="220" height="120" rx="6" fill="#2c353f"/>
+              <circle cx="630" cy="120" r="34" fill="#1a2027" stroke="#e8483f" stroke-width="5"/>
+              <rect x="520" y="200" width="220" height="110" rx="6" fill="#2c353f"/>
+              <g fill="#4c5763">
+                <rect x="538" y="222" width="184" height="10" rx="4"/>
+                <rect x="538" y="244" width="150" height="10" rx="4"/>
+                <rect x="538" y="266" width="170" height="10" rx="4"/>
+                <rect x="538" y="288" width="120" height="10" rx="4"/>
+              </g>
+              <g fill="#2c353f">
+                <rect x="60" y="340" width="680" height="52" rx="6"/>
+              </g>
+              <g fill="#39434e">
+                <rect x="80" y="356" width="120" height="20" rx="3"/>
+                <rect x="212" y="356" width="120" height="20" rx="3"/>
+                <rect x="344" y="356" width="120" height="20" rx="3"/>
+                <rect x="476" y="356" width="120" height="20" rx="3"/>
+              </g>
+              <rect x="608" y="352" width="112" height="28" rx="4" fill="#e8483f"/>
+            </svg>
+            <button class="jy-play" type="button" data-jy-toast="已为您标记该片，稍后可在视频档案中继续观看">▶</button>
+          </figure>
+          <div class="jy-focus-body">
+            <div class="jy-meta"><b>原创首发</b><span>2026-11-20</span><span>时长 28:14</span><span>作者 · 沈砚</span></div>
+            <h3>时间码里的一百二十七次回放：一条爆料如何被证实</h3>
+            <p>摄制组拿到三段不同来源的手机素材，画面分辨率参差、声音失真，甚至拍摄时间无法直接对应。我们把它拆成 127 个时间码片段，逐一与公开记录、现场回声以及两位独立见证人的叙述交叉比对，最终确认其中 9 段可信、3 段存在剪辑痕迹。这支片子不追求戏剧冲突，只想让观众看到核查的具体方法。</p>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>3,482</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆ 收藏</button>
+              <button class="jy-act" type="button" data-jy-copy="时间码里的一百二十七次回放：一条爆料如何被证实">⧉ 复制链接</button>
+            </div>
+          </div>
+        </article>
+        <div class="jy-focus-list">
+          <article class="jy-focus-item">
+            <span class="jy-no">02</span>
+            <div>
+              <h3>谁在制造“最新爆料”？内容流水线的六个环节</h3>
+              <p>从选题群到二次剪辑，追踪一条未经核实的信息在 18 小时内如何被搬运七次。</p>
+              <div class="jy-inline-meta"><span>作者 · 顾擎</span><span>21:40</span><span>播放 12.6 万</span></div>
+            </div>
+          </article>
+          <article class="jy-focus-item">
+            <span class="jy-no">03</span>
+            <div>
+              <h3>被误读的截图：一次像素级溯源实验</h3>
+              <p>我们用三款开源工具还原截图压缩路径，向观众演示“图能不能信”的判断方法。</p>
+              <div class="jy-inline-meta"><span>作者 · 柯屿</span><span>16:08</span><span>播放 9.3 万</span></div>
+            </div>
+          </article>
+          <article class="jy-focus-item">
+            <span class="jy-no">04</span>
+            <div>
+              <h3>当事人首次出镜：我不想再被剪成十秒</h3>
+              <p>一位普通从业者在爆料中被动走红，40 分钟长访谈记录他重新讲述自己的方式。</p>
+              <div class="jy-inline-meta"><span>作者 · 苏宛</span><span>39:52</span><span>播放 8.1 万</span></div>
+            </div>
+          </article>
+          <article class="jy-focus-item">
+            <span class="jy-no">05</span>
+            <div>
+              <h3>国产黑料最新爆料背后的行业观察：流量与人</h3>
+              <p>编辑部与三位媒体研究者的圆桌，讨论爆料需求为何持续存在。</p>
+              <div class="jy-inline-meta"><span>作者 · 编辑部</span><span>33:20</span><span>播放 6.7 万</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3.5 关键词解析（长文，≥800字） -->
+  <section class="jy-section jy-anchor" id="jy-analysis" aria-labelledby="jyAnalysisTitle">
+    <div class="jy-shell">
+      <div class="jy-analysis">
+        <span class="jy-sec-no">02 / 深度解析</span>
+        <h2 id="jyAnalysisTitle">关于“国产黑料最新爆料”，我们想认真说清楚的四件事</h2>
+        <p>在揭影社官网上，这四个字从来不是一个猎奇入口，而是一道需要被拆解的选题。我们把团队三年来的核查经验整理成一篇长文，送给每一位在搜索框里敲下这个词的观众，也送给每一位准备投稿的创作者。</p>
+
+        <h3>一、国产黑料最新爆料到底是什么内容形态</h3>
+        <p>从内容生产角度看，“国产黑料最新爆料”并不是一个单一题材，而是由三个层次叠加而成的复合内容：第一层是线索层，来自网友私信、公开平台截图、行业内部人士的口头转述；第二层是核实层，需要时间码比对、信源交叉、当事人回应与法律边界判断；第三层是表达层，也就是观众最终看到的视频。很多账号只做第一层和第三层，把中间的核实层直接跳过，于是“最新爆料”变成了“最快转发”。揭影社的立场是：没有核实层的爆料，不进入我们的视频档案。这也是我们坚持原创、高清、可追溯的原因——高清不只是画质，更是证据的清晰度；原创不只是版权，更是责任归属。</p>
+        <p>在实际操作中，我们把每一条线索登记为独立编号，注明来源渠道、接收时间、原始文件哈希值与授权状态。若线索来自匿名投稿，我们会要求至少两条独立路径的佐证；若涉及具体个人，必须给对方完整的回应窗口期，通常不少于 72 小时。这些流程听起来笨重，但正是企业级内容生态与野生爆料的区别所在。</p>
+
+        <h3>二、为什么“最新”两个字需要被重新理解</h3>
+        <p>“最新”在爆料语境中往往意味着时间优势，但对一个持续运营的品牌官网而言，最新更接近“最新被确认”。我们内部有一个说法：真相的时效性不等于谣言的速度。一条信息从出现到可被公开讨论，中间可能需要数天甚至数周。揭影社的视频档案因此分两条线并行：一条是“快线”，用 60 秒到 3 分钟的短视频呈现已核实的事实要点与关键证据截图；另一条是“深线”，用 20 分钟以上的调查纪录片还原完整过程，包括那些最终被证伪的支线。</p>
+        <p>这样做会损失一部分即时流量，但换来的是口碑。我们的观众在评论区里最常写的一句话是“等你们的版本”。这句等待，是国产黑料最新爆料这个关键词能够长期成立的基础——观众相信你不会为了快而牺牲准。平台因此把“核查日志”做成常设栏目，每期公开我们放弃了哪些线索、为什么放弃，让核实过程本身也成为可观看的内容。</p>
+
+        <h3>三、创作者在爆料内容中的位置</h3>
+        <p>揭影社的创作者不是“爆料搬运工”，而是调查链条上的一环。我们要求签约创作者完成基础的信源伦理培训，理解什么可以拍、什么不能拍、什么必须打码、什么必须征得书面同意。社区里现有 312 位创作者，来自媒体、法律、影像制作、数据分析等不同背景，其中约四成有全职工作，把拍摄当作长期兴趣。他们的存在让国产黑料最新爆料的表达更加多元：有人擅长做时间线动画，有人擅长做访谈，有人专门做数据可视化。</p>
+        <p>为了让这些能力被看见，官网设置了创作者矩阵、作品数与粉丝数展示、访谈摘录与投稿入口。我们鼓励创作者在视频里露出自己的工作方法，而不是只露出结论。一个愿意解释“我怎么知道”的创作者，比一个只会说“我有内幕”的账号更值得信赖。这也是我们反复强调“真实、专业、值得信赖”的原因：这三个词不是口号，而是创作者能否进入推荐位的前置条件。</p>
+
+        <h3>四、观众如何参与，而不只是围观</h3>
+        <p>爆料内容的终点不该是情绪，而应是判断力的提升。揭影社在每条视频下方提供三类互动：点赞与收藏用于标记值得回看的证据片段；评论区用于补充你掌握的公开信息；举报与反馈入口用于指出我们可能出现的错误。我们设有更正机制，一旦确认内容有误，会在原视频固定位置挂出更正说明，并在企业动态中同步。这种机制让国产黑料最新爆料从“看热闹”转向“共同校准”。</p>
+        <div class="jy-quote">我们并不认为所有爆料都值得传播，但我们认为每一次围观都值得被认真对待。揭影社愿意做那个把围观变成理解的中转站：把模糊的截图变成可核查的时间码，把激烈的指责变成可回应的对话，把一次性的流量变成持续运营的社区。</div>
+        <p>未来一年，揭影社计划把核查工具包开放给社区创作者，包括时间码对齐模板、信源登记表与打码规范；同时与高校新闻院系合作，把真实案例做成教学素材。我们相信，只有当方法被共享，国产黑料最新爆料才不至于沦为消耗信任的快速消费品。这也是一个视频品牌官网能给出的最实在承诺：我们不保证每条爆料都惊人，但我们保证每条上线的内容都经过认真对待。</p>
+        <div class="jy-two-col">
+          <div>
+            <h3>我们公开的三条原则</h3>
+            <ul>
+              <li>不发布无法交叉验证的核心指控；</li>
+              <li>给当事人完整的回应窗口与更正通道；</li>
+              <li>所有素材标注来源、时间与授权状态。</li>
+            </ul>
+          </div>
+          <div>
+            <h3>我们不做的三件事</h3>
+            <ul>
+              <li>不购买、不转载来源不明的私密影像；</li>
+              <li>不以剪辑制造未发生的对话；</li>
+              <li>不在缺乏证据时使用确定性结论。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S3 视频档案：三列等高卡片 -->
+  <section class="jy-section jy-anchor" id="jy-videos" aria-labelledby="jyVideosTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">03 / 视频档案</span>
+          <h2 id="jyVideosTitle">国产黑料最新爆料 · 本周更新的六支原创视频</h2>
+        </div>
+        <p>全部为揭影社原创或创作者授权首发，支持高清播放与片段引用，转载须注明来源。</p>
+      </div>
+      <div class="jy-video-grid">
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="多格监控画面拼接成的时间线对比图插画">
+              <rect width="640" height="360" fill="#1c2229"/>
+              <g fill="#2b333d">
+                <rect x="28" y="28" width="180" height="108" rx="4"/>
+                <rect x="230" y="28" width="180" height="108" rx="4"/>
+                <rect x="432" y="28" width="180" height="108" rx="4"/>
+                <rect x="28" y="160" width="180" height="108" rx="4"/>
+                <rect x="230" y="160" width="180" height="108" rx="4"/>
+                <rect x="432" y="160" width="180" height="108" rx="4"/>
+              </g>
+              <g fill="#4a5561">
+                <rect x="44" y="86" width="148" height="8"/>
+                <rect x="246" y="86" width="148" height="8"/>
+                <rect x="448" y="86" width="148" height="8"/>
+                <rect x="44" y="218" width="148" height="8"/>
+                <rect x="246" y="218" width="148" height="8"/>
+                <rect x="448" y="218" width="148" height="8"/>
+              </g>
+              <rect x="448" y="86" width="80" height="8" fill="#e8483f"/>
+              <rect x="246" y="218" width="110" height="8" fill="#c9a227"/>
+              <path d="M28 300 H612" stroke="#3d4854" stroke-width="2"/>
+              <g fill="#e8483f">
+                <circle cx="120" cy="300" r="7"/>
+                <circle cx="330" cy="300" r="7"/>
+                <circle cx="520" cy="300" r="7"/>
+              </g>
+              <path d="M120 300 L330 300 L520 300" stroke="#e8483f" stroke-width="2" fill="none" opacity="0.6"/>
+            </svg>
+            <span class="jy-dur">18:26</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 沈砚</span><span>11-21</span></div>
+            <h3>六宫格里的真相：多源素材的时间线重建</h3>
+            <p>把六段互相矛盾的画面排进同一张时间轴，误差从 47 秒压缩到 2 秒，结论也随之改变。</p>
+            <div class="jy-inline-meta"><span>☆ 1.2 万</span><span>♡ 8,640</span><span>▶ 21.4 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>8640</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="六宫格里的真相：多源素材的时间线重建">⧉</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="法律条文与手机截图并置的核查工作台插画">
+              <rect width="640" height="360" fill="#20262e"/>
+              <rect x="40" y="40" width="250" height="280" rx="8" fill="#2c353f"/>
+              <g fill="#4a5561">
+                <rect x="66" y="76" width="198" height="10" rx="4"/>
+                <rect x="66" y="102" width="168" height="10" rx="4"/>
+                <rect x="66" y="128" width="190" height="10" rx="4"/>
+                <rect x="66" y="154" width="140" height="10" rx="4"/>
+                <rect x="66" y="196" width="198" height="10" rx="4"/>
+                <rect x="66" y="222" width="176" height="10" rx="4"/>
+                <rect x="66" y="248" width="120" height="10" rx="4"/>
+              </g>
+              <rect x="66" y="128" width="70" height="10" fill="#e8483f"/>
+              <rect x="330" y="60" width="270" height="240" rx="14" fill="#161c22" stroke="#3d4854" stroke-width="3"/>
+              <rect x="352" y="88" width="226" height="130" rx="6" fill="#2b333d"/>
+              <g fill="#5a6572">
+                <rect x="366" y="196" width="198" height="8"/>
+                <rect x="366" y="212" width="150" height="8"/>
+              </g>
+              <rect x="352" y="238" width="100" height="26" rx="4" fill="#e8483f"/>
+              <rect x="466" y="238" width="100" height="26" rx="4" fill="#39434e"/>
+            </svg>
+            <span class="jy-dur">22:05</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 顾擎</span><span>11-19</span></div>
+            <h3>爆料的边界：法律视角下的拍摄与发布</h3>
+            <p>邀请执业律师逐条讲解隐私、名誉与公众知情权之间的分界，附常见误区清单。</p>
+            <div class="jy-inline-meta"><span>☆ 9,780</span><span>♡ 6,215</span><span>▶ 17.8 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>6215</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="爆料的边界：法律视角下的拍摄与发布">⧉</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="被访谈者坐在灯下接受采访的剪影插画">
+              <rect width="640" height="360" fill="#191f26"/>
+              <circle cx="480" cy="80" r="120" fill="#e8483f" opacity="0.14"/>
+              <rect x="0" y="270" width="640" height="90" fill="#232b33"/>
+              <g fill="#39434e">
+                <circle cx="230" cy="168" r="46"/>
+                <path d="M160 270 q70 -76 140 0 z"/>
+              </g>
+              <rect x="300" y="120" width="180" height="110" rx="6" fill="#2c353f"/>
+              <g fill="#5a6572">
+                <rect x="316" y="138" width="148" height="9"/>
+                <rect x="316" y="158" width="120" height="9"/>
+                <rect x="316" y="178" width="136" height="9"/>
+              </g>
+              <rect x="316" y="204" width="76" height="14" rx="3" fill="#c9a227"/>
+              <circle cx="120" cy="300" r="4" fill="#e8483f"/>
+              <path d="M520 270 L556 170 L592 270 Z" fill="#3d4854"/>
+              <ellipse cx="556" cy="170" rx="18" ry="10" fill="#c9a227"/>
+            </svg>
+            <span class="jy-dur">39:52</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 苏宛</span><span>11-18</span></div>
+            <h3>我不想再被剪成十秒：当事人的四十分钟</h3>
+            <p>一次不打断的长访谈，让被爆料卷入的普通人有机会完整说完自己的版本。</p>
+            <div class="jy-inline-meta"><span>☆ 1.5 万</span><span>♡ 1.1 万</span><span>▶ 18.2 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>11020</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="我不想再被剪成十秒：当事人的四十分钟">⧉</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="像素放大网格与工具图标的溯源演示插画">
+              <rect width="640" height="360" fill="#1e242b"/>
+              <g fill="#2e3742">
+                <rect x="70" y="70" width="60" height="60"/>
+                <rect x="130" y="70" width="60" height="60"/>
+                <rect x="190" y="70" width="60" height="60"/>
+                <rect x="70" y="130" width="60" height="60"/>
+                <rect x="190" y="130" width="60" height="60"/>
+                <rect x="70" y="190" width="60" height="60"/>
+                <rect x="130" y="190" width="60" height="60"/>
+                <rect x="190" y="190" width="60" height="60"/>
+              </g>
+              <rect x="130" y="130" width="60" height="60" fill="#e8483f"/>
+              <g stroke="#3d4854" stroke-width="2">
+                <path d="M70 70 L250 250"/>
+              </g>
+              <g fill="#39434e">
+                <rect x="340" y="70" width="230" height="60" rx="6"/>
+                <rect x="340" y="150" width="230" height="60" rx="6"/>
+                <rect x="340" y="230" width="230" height="60" rx="6"/>
+              </g>
+              <g fill="#5a6572">
+                <rect x="358" y="90" width="120" height="9"/>
+                <rect x="358" y="170" width="150" height="9"/>
+                <rect x="358" y="250" width="100" height="9"/>
+              </g>
+              <circle cx="524" cy="100" r="8" fill="#c9a227"/>
+              <circle cx="524" cy="180" r="8" fill="#e8483f"/>
+              <circle cx="524" cy="260" r="8" fill="#4f6a2c"/>
+            </svg>
+            <span class="jy-dur">14:40</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 柯屿</span><span>11-16</span></div>
+            <h3>截图也能说谎？三款工具教你溯源</h3>
+            <p>从压缩痕迹到元数据，手把手演示如何判断一张截图是否被二次加工。</p>
+            <div class="jy-inline-meta"><span>☆ 8,120</span><span>♡ 7,340</span><span>▶ 13.5 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>7340</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="截图也能说谎？三款工具教你溯源">⧉</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="信息流水线传送带与打码标识的插画">
+              <rect width="640" height="360" fill="#1b2128"/>
+              <rect x="0" y="230" width="640" height="60" fill="#2a323b"/>
+              <g fill="#3d4854">
+                <rect x="60" y="150" width="90" height="70" rx="4"/>
+                <rect x="190" y="130" width="90" height="90" rx="4"/>
+                <rect x="320" y="150" width="90" height="70" rx="4"/>
+                <rect x="450" y="120" width="90" height="100" rx="4"/>
+              </g>
+              <g fill="#e8483f">
+                <rect x="214" y="154" width="42" height="8"/>
+                <rect x="474" y="144" width="42" height="8"/>
+              </g>
+              <g fill="#c9a227">
+                <rect x="84" y="174" width="42" height="8"/>
+                <rect x="344" y="174" width="42" height="8"/>
+              </g>
+              <g fill="#1b2128">
+                <circle cx="235" cy="112" r="16"/>
+                <path d="M219 112 L251 112" stroke="#e8483f" stroke-width="4"/>
+              </g>
+              <path d="M0 290 H640" stroke="#4a5561" stroke-width="2" stroke-dasharray="10 10"/>
+              <g fill="#4a5561">
+                <circle cx="110" cy="290" r="14"/>
+                <circle cx="300" cy="290" r="14"/>
+                <circle cx="490" cy="290" r="14"/>
+              </g>
+            </svg>
+            <span class="jy-dur">16:33</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 郑薄</span><span>11-15</span></div>
+            <h3>十八小时七次搬运：一条假消息的旅行</h3>
+            <p>从最初的聊天群到矩阵账号，我们复原了一条信息被放大、扭曲与打码的全过程。</p>
+            <div class="jy-inline-meta"><span>☆ 6,980</span><span>♡ 5,880</span><span>▶ 11.2 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>5880</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="十八小时七次搬运：一条假消息的旅行">⧉</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="jy-vcard">
+          <figure>
+            <svg viewBox="0 0 640 360" role="img" aria-label="圆桌讨论场景的俯视插画">
+              <rect width="640" height="360" fill="#222932"/>
+              <ellipse cx="320" cy="200" rx="180" ry="90" fill="#2e3742"/>
+              <ellipse cx="320" cy="196" rx="150" ry="70" fill="#3a444f"/>
+              <g>
+                <circle cx="180" cy="110" r="26" fill="#e8483f"/>
+                <circle cx="320" cy="82" r="26" fill="#c9a227"/>
+                <circle cx="460" cy="110" r="26" fill="#4f6a2c"/>
+                <circle cx="180" cy="300" r="26" fill="#5a6572"/>
+                <circle cx="460" cy="300" r="26" fill="#8a5a3b"/>
+              </g>
+              <g fill="#1b2128">
+                <rect x="280" y="180" width="80" height="12" rx="6"/>
+                <rect x="290" y="204" width="60" height="8" rx="4"/>
+              </g>
+              <circle cx="320" cy="214" r="6" fill="#e8483f"/>
+            </svg>
+            <span class="jy-dur">33:20</span>
+          </figure>
+          <div class="jy-vcard-body">
+            <div class="jy-meta"><span>作者 · 编辑部</span><span>11-13</span></div>
+            <h3>圆桌：观众为什么需要“黑料”</h3>
+            <p>三位媒体研究者从心理需求、平台机制到社区伦理，讨论爆料经济的持续动力。</p>
+            <div class="jy-inline-meta"><span>☆ 5,460</span><span>♡ 4,120</span><span>▶ 9.8 万</span></div>
+            <div class="jy-actions">
+              <button class="jy-act" type="button" data-jy-like>♡ <span>4120</span></button>
+              <button class="jy-act" type="button" data-jy-save>☆</button>
+              <button class="jy-act" type="button" data-jy-copy="圆桌：观众为什么需要黑料">⧉</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S4 专题企划 -->
+  <section class="jy-section jy-anchor" id="jy-topics" aria-labelledby="jyTopicsTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">04 / 专题企划</span>
+          <h2 id="jyTopicsTitle">围绕国产黑料最新爆料的三组长期企划</h2>
+        </div>
+        <p>专题按季度更新，每期配置独立核查小组，选题会向社区公开征集。</p>
+      </div>
+      <div class="jy-topic-grid">
+        <article class="jy-topic feature">
+          <div class="jy-topic-head">
+            <h3>重点企划｜核查者手记：一年十二个现场</h3>
+            <span class="jy-status">持续更新中</span>
+          </div>
+          <p>我们跟随核查小组进入十二个真实现场：深夜的剪辑室、堆满旧手机的证物箱、被反复拨打却无人接听的号码。这不是一档结论导向的节目，而是一部关于方法的工作日志，记录国产黑料最新爆料从线索到成片之间的每一道工序。</p>
+          <ul>
+            <li><span>01</span>第 9 集：一条被撤回的爆料，我们为什么选择不发</li>
+            <li><span>02</span>第 10 集：给当事人打第 4 通电话时的对话录音整理</li>
+            <li><span>03</span>第 11 集：当数据可视化遇到模糊事实，图表该怎么画</li>
+          </ul>
+        </article>
+        <article class="jy-topic">
+          <div class="jy-topic-head">
+            <h3>专题｜创作者的第一次核查</h3>
+            <span class="jy-status is-ongoing">招募中</span>
+          </div>
+          <p>面向社区新人的实战企划，由资深创作者带队完成一次完整的线索核查，成片在官网首发，并进入年度新人榜评选。</p>
+          <ul>
+            <li><span>01</span>报名开放：提交一条你正在关注的线索与初步判断</li>
+            <li><span>02</span>工作坊：信源登记、时间码对齐与镜头伦理</li>
+            <li><span>03</span>成片展映：入选作品获得首页推荐位</li>
+          </ul>
+        </article>
+        <article class="jy-topic">
+          <div class="jy-topic-head">
+            <h3>专题｜被爆料者的生活之后</h3>
+            <span class="jy-status">第三期制作中</span>
+          </div>
+          <p>把镜头从爆料本身移开，转向事件平息之后。我们用半年时间回访三位普通人，记录他们如何重建日常，也记录围观散去后留下的痕迹。</p>
+          <ul>
+            <li><span>01</span>回访一：换了城市的那位便利店店长</li>
+            <li><span>02</span>回访二：决定公开身份的实习生</li>
+            <li><span>03</span>回访三：删掉所有社交账号的剪辑师</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- S5 创作者矩阵：双列简介 -->
+  <section class="jy-section jy-anchor" id="jy-authors" aria-labelledby="jyAuthorsTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">05 / 创作者矩阵</span>
+          <h2 id="jyAuthorsTitle">持续输出国产黑料最新爆料的六位社区创作者</h2>
+        </div>
+        <p>他们背景各异，共同点是愿意公开自己的工作方法，并对每一条发布负责。</p>
+      </div>
+      <div class="jy-author-grid">
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#e8483f,#8e211b)" aria-hidden="true">沈</div>
+          <div>
+            <h3>沈砚</h3>
+            <div class="jy-field">擅长：调查纪录片 / 时间线重建</div>
+            <p>前财经媒体视频编导，习惯把复杂事件拆成可核对的时间码。近三年专注国产黑料最新爆料的影像化表达，坚持给每个结论配上原始素材出处与受访人回应，作品以克制著称。</p>
+            <div class="jy-author-data"><span>作品 <b>86</b></span><span>粉丝 <b>24.3 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="沈砚｜前财经媒体视频编导，代表作《时间码里的一百二十七次回放》。主张先把事实排成时间轴，再决定要不要拍。">查看作者资料</button>
+          </div>
+        </article>
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#c9a227,#7d5c0b)" aria-hidden="true">顾</div>
+          <div>
+            <h3>顾擎</h3>
+            <div class="jy-field">擅长：法律解读 / 伦理讨论</div>
+            <p>执业律师出身的视频作者，擅长用通俗语言拆解隐私权、名誉权与公众知情权的边界。在揭影社开设「爆料的边界」系列，为社区创作者提供合规审核清单，被观众称为最让人冷静下来的声音。</p>
+            <div class="jy-author-data"><span>作品 <b>54</b></span><span>粉丝 <b>18.7 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="顾擎｜执业律师、内容合规顾问，主理「爆料的边界」系列，强调爆料也要守边界。">查看作者资料</button>
+          </div>
+        </article>
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#4f6a2c,#2c3d18)" aria-hidden="true">柯</div>
+          <div>
+            <h3>柯屿</h3>
+            <div class="jy-field">擅长：溯源工具 / 数据可视化</div>
+            <p>数据分析师，业余时间做影像溯源教学。擅长把压缩痕迹、元数据与截图路径讲成普通人听得懂的步骤，系列教程被多所高校新闻社团用作参考资料，是社区里最受欢迎的实用技巧作者之一。</p>
+            <div class="jy-author-data"><span>作品 <b>62</b></span><span>粉丝 <b>15.2 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="柯屿｜数据分析师，专注影像溯源与可视化教学，教程以步骤清晰、可复现见长。">查看作者资料</button>
+          </div>
+        </article>
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#3f6a8a,#1d3a4f)" aria-hidden="true">苏</div>
+          <div>
+            <h3>苏宛</h3>
+            <div class="jy-field">擅长：人物访谈 / 情感记录</div>
+            <p>纪录片导演，喜欢用长镜头和不打扰的提问方式。她相信被爆料者也需要完整的表达空间，因此坚持每期访谈不少于三十分钟，并在成片前让受访者确认段落，是社区中口碑极稳的创作者。</p>
+            <div class="jy-author-data"><span>作品 <b>41</b></span><span>粉丝 <b>21.6 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="苏宛｜纪录片导演，代表作《我不想再被剪成十秒》，坚持长访谈与受访者确认制。">查看作者资料</button>
+          </div>
+        </article>
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#8a3f6a,#4f1d3a)" aria-hidden="true">郑</div>
+          <div>
+            <h3>郑薄</h3>
+            <div class="jy-field">擅长：信息流追踪 / 行业观察</div>
+            <p>曾在内容平台做风控，熟悉矩阵账号与搬运链路。他的视频节奏快、信息密度高，但每条结论都附截图与链接存档。近半年专注国产黑料最新爆料的传播机制研究，作品常被同行引用。</p>
+            <div class="jy-author-data"><span>作品 <b>73</b></span><span>粉丝 <b>13.9 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="郑薄｜前平台风控从业者，专注信息流追踪与搬运链路复原，作品信息密度极高。">查看作者资料</button>
+          </div>
+        </article>
+
+        <article class="jy-author">
+          <div class="jy-avatar" style="background:linear-gradient(140deg,#b05a2b,#5e2c12)" aria-hidden="true">编</div>
+          <div>
+            <h3>揭影编辑部</h3>
+            <div class="jy-field">擅长：圆桌讨论 / 选题策划</div>
+            <p>由五名编辑与两名事实核查员组成的团队，负责官网专题企划、圆桌节目与年度榜单。我们不追逐最刺激的标题，更在意一个选题能否在三个月后依然站得住脚，这也是品牌长期运营的底层逻辑。</p>
+            <div class="jy-author-data"><span>作品 <b>128</b></span><span>粉丝 <b>32.8 万</b></span></div>
+            <button class="jy-link-btn" type="button" data-jy-author="揭影编辑部｜由编辑与事实核查员组成，负责专题企划、圆桌与年度榜单，强调长期主义。">查看作者资料</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 数据榜单 -->
+  <section class="jy-section jy-anchor" id="jy-rank" aria-labelledby="jyRankTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">06 / 数据榜单</span>
+          <h2 id="jyRankTitle">国产黑料最新爆料 · 本周三类榜单</h2>
+        </div>
+        <p>榜单按有效播放、完播率与社区互动综合计算，每周一更新，接受公开质询。</p>
+      </div>
+      <div class="jy-rank-wrap">
+        <div class="jy-rank">
+          <h3>热度榜</h3>
+          <ol>
+            <li><span>六宫格里的真相：多源素材的时间线重建</span><em class="jy-heat">21.4 万</em></li>
+            <li><span>我不想再被剪成十秒：当事人的四十分钟</span><em class="jy-heat">18.2 万</em></li>
+            <li><span>爆料的边界：法律视角下的拍摄与发布</span><em class="jy-heat">17.8 万</em></li>
+            <li><span>截图也能说谎？三款工具教你溯源</span><em class="jy-heat">13.5 万</em></li>
+            <li><span>十八小时七次搬运：一条假消息的旅行</span><em class="jy-heat">11.2 万</em></li>
+          </ol>
+        </div>
+        <div class="jy-rank">
+          <h3>新人榜</h3>
+          <ol>
+            <li><span>阿棠 · 记录县城小店的第三年</span><em class="jy-heat">新晋</em></li>
+            <li><span>老池 · 一份旧报纸里的十个细节</span><em class="jy-heat">新晋</em></li>
+            <li><span>林忽 · 电话录音整理指南</span><em class="jy-heat">新晋</em></li>
+            <li><span>南屏 · 我在社区做事实核查</span><em class="jy-heat">新晋</em></li>
+            <li><span>白屿 · 打码规范的一种做法</span><em class="jy-heat">新晋</em></li>
+          </ol>
+        </div>
+        <div class="jy-rank">
+          <h3>口碑榜</h3>
+          <ol>
+            <li><span>圆桌：观众为什么需要“黑料”</span><em class="jy-heat">9.4 分</em></li>
+            <li><span>爆料的边界：法律视角下的拍摄与发布</span><em class="jy-heat">9.2 分</em></li>
+            <li><span>我不想再被剪成十秒：当事人的四十分钟</span><em class="jy-heat">9.1 分</em></li>
+            <li><span>六宫格里的真相：多源素材的时间线重建</span><em class="jy-heat">8.9 分</em></li>
+            <li><span>截图也能说谎？三款工具教你溯源</span><em class="jy-heat">8.7 分</em></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S6 口碑评价：评分摘要 + 引用摘录 -->
+  <section class="jy-section jy-anchor" id="jy-reviews" aria-labelledby="jyReviewsTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">07 / 社区口碑</span>
+          <h2 id="jyReviewsTitle">观众如何评价我们的国产黑料最新爆料内容</h2>
+        </div>
+        <p>以下评价来自社区公开留言，已获作者授权展示，观点不代表编辑部立场。</p>
+      </div>
+      <div class="jy-review-layout">
+        <div class="jy-score">
+          <b>9.1</b>
+          <span>综合口碑评分 / 满分 10</span>
+          <div class="jy-stars">★★★★★</div>
+          <p style="font-size:12px;color:#a8a29a;margin:0;">基于本季 1,284 条有效评价</p>
+          <div class="jy-score-bars">
+            <div>可信度 <i><em style="width:94%"></em></i></div>
+            <div>画面质量 <i><em style="width:91%"></em></i></div>
+            <div>社区氛围 <i><em style="width:88%"></em></i></div>
+            <div>更新频率 <i><em style="width:82%"></em></i></div>
+          </div>
+        </div>
+        <div class="jy-reviews">
+          <article class="jy-review">
+            <blockquote>第一次看到有人把“不发布”也剪成一集，反而让我更信任这个平台。</blockquote>
+            <footer><b>长夜读稿人</b><span>11-21</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>画质是真的清晰，时间码能看清秒数，这对想自己核对的观众太友好了。</blockquote>
+            <footer><b>南窗</b><span>11-20</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>评论区没有互喷，大家都在补充公开资料，久违的讨论氛围。</blockquote>
+            <footer><b>阿棠</b><span>11-20</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>节奏稍微慢了一点，长访谈后半段略拖，但信息确实扎实，我给高分。</blockquote>
+            <footer><b>半页笔记</b><span>11-19</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>作为从业者，看得出他们在剪辑伦理上做了功课，打了码也留了必要信息。</blockquote>
+            <footer><b>老池</b><span>11-18</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>希望更新再快些，不过宁可慢也别乱发，国产黑料最新爆料能做成这样不容易。</blockquote>
+            <footer><b>林忽</b><span>11-18</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>法律那期我转给了公司同事看，比很多付费课程讲得清楚。</blockquote>
+            <footer><b>新来的实习生</b><span>11-17</span></footer>
+          </article>
+          <article class="jy-review">
+            <blockquote>投稿两天后收到编辑回复，虽然没被采用，但给了具体原因，很受用。</blockquote>
+            <footer><b>白屿</b><span>11-16</span></footer>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- S7 辅助区：企业动态 + 合作品牌 + FAQ -->
+  <section class="jy-section jy-anchor" id="jy-support" aria-labelledby="jySupportTitle">
+    <div class="jy-shell">
+      <div class="jy-sec-head">
+        <div>
+          <span class="jy-sec-no">08 / 企业动态与帮助</span>
+          <h2 id="jySupportTitle">官方发布、合作伙伴与常见问题</h2>
+        </div>
+        <p>品牌动态与内容更新在此同步，投稿与合作请通过页面底部入口联系我们。</p>
+      </div>
+      <div class="jy-support-grid">
+        <div>
+          <h3 style="font-size:18px;margin-bottom:16px;">企业动态</h3>
+          <ul class="jy-news">
+            <li>
+              <time>2026-11-21</time>
+              <div>
+                <h3>国产黑料最新爆料第 47 期影像档案正式上线</h3>
+                <p>本期新增 6 支原创高清视频，全部通过事实核查流程，并附完整信源登记表。</p>
+              </div>
+            </li>
+            <li>
+              <time>2026-11-14</time>
+              <div>
+                <h3>社区创作者扶持计划开放报名</h3>
+                <p>面向新创作者提供选题指导、核查培训与拍摄设备借用，首批名额 40 位。</p>
+              </div>
+            </li>
+            <li>
+              <time>2026-11-05</time>
+              <div>
+                <h3>揭影社与三所高校新闻院系达成教学合作</h3>
+                <p>真实案例将改编为教学素材，并共同发布年度内容核查方法白皮书。</p>
+              </div>
+            </li>
+            <li>
+              <time>2026-10-28</time>
+              <div>
+                <h3>官网新增更正机制与内容质询入口</h3>
+                <p>观众可对任一视频提出质询，编辑部将在五个工作日内公开回应处理结果。</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3 style="font-size:18px;margin-bottom:16px;">合作品牌与伙伴</h3>
+          <div class="jy-partners">
+            <div class="jy-partner"><i style="background:#3f6a8a">研</i>清源事实研究院</div>
+            <div class="jy-partner"><i style="background:#4f6a2c">影</i>南岭影像工坊</div>
+            <div class="jy-partner"><i style="background:#c9a227">档</i>城市档案馆计划</div>
+            <div class="jy-partner"><i style="background:#8a3f6a">律</i>衡平法律观察</div>
+          </div>
+          <p style="font-size:13px;color:var(--jy-muted);margin-top:16px;">合作仅涉及内容共建与方法共享，不参与具体选题的核查结论。</p>
+          <h3 style="font-size:18px;margin:22px 0 12px;">投稿与联系</h3>
+          <p style="font-size:13.5px;color:var(--jy-muted);">编辑部邮箱：editor@jiying-media.example　｜　投稿请附线索来源、时间与可核对的公开记录。我们会在五个工作日内回复。</p>
+          <button class="jy-btn jy-btn-primary" type="button" id="jyOpenSubmit" style="margin-top:6px;">打开投稿表单</button>
+        </div>
+      </div>
+
+      <div class="jy-faq-list">
+        <details open>
+          <summary>什么是“国产黑料最新爆料”，你们的选题标准是什么？</summary>
+          <p>我们把它视为需要被核实的公共议题集合，而非猎奇内容。选题需同时满足三个条件：涉及公共利益、存在可核查的证据、当事人有回应机会。无法满足其一，我们不进入拍摄流程。</p>
+        </details>
+        <details>
+          <summary>你们如何保证视频内容的真实性？</summary>
+          <p>每条内容经过线索登记、交叉验证、当事人回应、法律预审四道流程，并在成片中标注素材来源与时间码。核查日志会在企业动态中公开，欢迎质询。</p>
+        </details>
+        <details>
+          <summary>普通观众可以向官网投稿线索吗？</summary>
+          <p>可以。官网设有投稿入口，支持文字、图片与视频素材。请尽量提供原始文件与获取时间，我们会对投稿人信息严格保密，并在采用前征得授权。</p>
+        </details>
+        <details>
+          <summary>视频可以转载或用于教学吗？</summary>
+          <p>非商业转载须注明“来源：揭影社”并附原文链接；教学用途可发邮件申请，我们会提供带水印的教学版本。禁止断章取义式剪辑与二次加工。</p>
+        </details>
+        <details>
+          <summary>如果我认为你们的视频有误，怎么反馈？</summary>
+          <p>可通过页面反馈入口或编辑部邮箱提交质询，附上具体时间点与依据。确认有误的，我们会在原视频固定位置挂出更正说明，并在下一期动态中同步。</p>
+        </details>
+        <details>
+          <summary>创作者如何加入揭影社社区？</summary>
+          <p>提交过往作品与一份选题计划即可。我们更看重核查意识与表达方法，而非粉丝数量。通过初筛后会安排一次线上沟通与培训。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="jy-footer">
+  <div class="jy-shell">
+    <div class="jy-footer-grid">
+      <div>
+        <a class="jy-brand" href="#jy-top" style="margin-bottom:14px;">
+          <span class="jy-brand-mark">揭</span>
+          <span class="jy-brand-text"><b style="color:#fff;">揭影社</b><span>JIYING MEDIA</span></span>
+        </a>
+        <p>揭影社官方网站 · 专注国产黑料最新爆料的原创影像与深度观察。我们深耕垂直领域，以专业核查、高清制作与持续运营，为创作者与企业搭建值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h3>内容导航</h3>
+        <ul>
+          <li><a href="#jy-focus">焦点爆料</a></li>
+          <li><a href="#jy-analysis">关键词解析</a></li>
+          <li><a href="#jy-videos">视频档案</a></li>
+          <li><a href="#jy-topics">专题企划</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>社区参与</h3>
+        <ul>
+          <li><a href="#jy-authors">创作者矩阵</a></li>
+          <li><a href="#jy-rank">数据榜单</a></li>
+          <li><a href="#jy-reviews">社区口碑</a></li>
+          <li><a href="#jy-support">投稿入口</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>品牌信息</h3>
+        <ul>
+          <li>官方发布 · 原创新闻影像</li>
+          <li>品牌故事 · 年度核查白皮书</li>
+          <li>社会责任 · 社区事实核查培训</li>
+          <li>用户至上 · 五个工作日质询回应</li>
+        </ul>
+      </div>
+    </div>
+    <div class="jy-footer-bottom">
+      <span>© 2026 揭影社 版权所有 · 持续运营中</span>
+      <span>信息网络传播视听节目备案 第 20261122 号 · 广播电视节目制作经营许可（示例）</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 弹窗：作者资料 -->
+<div class="jy-modal" id="jyAuthorModal" role="dialog" aria-modal="true" aria-labelledby="jyAuthorModalTitle">
+  <div class="jy-modal-box">
+    <button class="jy-modal-close" type="button" data-jy-close aria-label="关闭">✕</button>
+    <h3 id="jyAuthorModalTitle">作者资料</h3>
+    <p id="jyAuthorModalBody"></p>
+  </div>
+</div>
+
+<!-- 弹窗：投稿 -->
+<div class="jy-modal" id="jySubmitModal" role="dialog" aria-modal="true" aria-labelledby="jySubmitModalTitle">
+  <div class="jy-modal-box">
+    <button class="jy-modal-close" type="button" data-jy-close aria-label="关闭">✕</button>
+    <h3 id="jySubmitModalTitle">向揭影社投稿</h3>
+    <p>请填写基本信息与线索概要，编辑部会在五个工作日内回复。我们会对投稿人身份严格保密。</p>
+    <form id="jySubmitForm">
+      <div class="jy-form-row">
+        <label for="jySubmitName">称呼</label>
+        <input id="jySubmitName" name="name" type="text" placeholder="如何称呼你" required>
+      </div>
+      <div class="jy-form-row">
+        <label for="jySubmitContact">联系方式</label>
+        <input id="jySubmitContact" name="contact" type="text" placeholder="邮箱或常用社交账号" required>
+      </div>
+      <div class="jy-form-row">
+        <label for="jySubmitBrief">线索概要</label>
+        <textarea id="jySubmitBrief" name="brief" rows="4" placeholder="请说明来源、时间与可核对的公开记录" required></textarea>
+      </div>
+      <button class="jy-btn jy-btn-primary" type="submit">提交投稿</button>
+    </form>
+  </div>
+</div>
+
+<div class="jy-toast" id="jyToast" role="status" aria-live="polite"></div>
+<button class="jy-backtop" id="jyBackTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var toast = document.getElementById('jyToast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('is-show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toast.classList.remove('is-show'); }, 2400);
+  }
+
+  /* 移动端导航折叠 */
+  var menuToggle = document.getElementById('jyMenuToggle');
+  var nav = document.getElementById('jyNav');
+  if(menuToggle && nav){
+    menuToggle.addEventListener('click', function(){
+      var open = nav.classList.toggle('is-open');
+      menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      menuToggle.textContent = open ? '收起' : '菜单';
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A' && window.innerWidth <= 820){
+        nav.classList.remove('is-open');
+        menuToggle.setAttribute('aria-expanded','false');
+        menuToggle.textContent = '菜单';
+      }
+    });
+  }
+
+  /* 搜索前端反馈 */
+  var searchInput = document.getElementById('jySearchInput');
+  var searchBtn = document.getElementById('jySearchBtn');
+  var searchFeedback = document.getElementById('jySearchFeedback');
+  var searchIndex = [
+    { t:'时间码里的一百二十七次回放', tag:'焦点' },
+    { t:'六宫格里的真相：多源素材的时间线重建', tag:'视频' },
+    { t:'爆料的边界：法律视角下的拍摄与发布', tag:'视频' },
+    { t:'我不想再被剪成十秒：当事人的四十分钟', tag:'访谈' },
+    { t:'截图也能说谎？三款工具教你溯源', tag:'教程' },
+    { t:'十八小时七次搬运：一条假消息的旅行', tag:'行业观察' },
+    { t:'核查者手记：一年十二个现场', tag:'专题' },
+    { t:'沈砚 / 顾擎 / 柯屿 / 苏宛 / 郑薄', tag:'创作者' }
+  ];
+  function runSearch(){
+    var q = (searchInput.value || '').trim();
+    if(!q){
+      searchFeedback.innerHTML = '<b>请输入关键词</b><ul><li>可试试“时间码”“法律”“溯源”</li></ul>';
+    } else {
+      var hits = searchIndex.filter(function(item){ return item.t.indexOf(q) !== -1; });
+      if(hits.length){
+        searchFeedback.innerHTML = '<b>为你找到 ' + hits.length + ' 条相关内容</b><ul>' +
+          hits.slice(0,4).map(function(h){ return '<li>' + h.t + '（' + h.tag + '）</li>'; }).join('') + '</ul>';
+      } else {
+        searchFeedback.innerHTML = '<b>暂未找到“' + q.replace(/[<>&]/g,'') + '”的直接结果</b><ul><li>可缩短关键词，或前往视频档案浏览</li><li>也可通过投稿入口告诉我们你想看的内容</li></ul>';
+      }
+    }
+    searchFeedback.classList.add('is-open');
+  }
+  if(searchBtn && searchInput){
+    searchBtn.addEventListener('click', runSearch);
+    searchInput.addEventListener('keydown', function(e){ if(e.key === 'Enter'){ runSearch(); } });
+    document.addEventListener('click', function(e){
+      if(!e.target.closest('.jy-search')){ searchFeedback.classList.remove('is-open'); }
+    });
+  }
+
+  /* 点赞 / 收藏切换 */
+  document.addEventListener('click', function(e){
+    var like = e.target.closest('[data-jy-like]');
+    if(like){
+      var span = like.querySelector('span');
+      var n = parseInt(span.textContent.replace(/[^0-9]/g,''),10) || 0;
+      if(like.classList.toggle('is-liked')){
+        like.firstChild.nodeValue = '♥ ';
+        span.textContent = (n + 1).toLocaleString('en-US');
+      } else {
+        like.firstChild.nodeValue = '♡ ';
+        span.textContent = (n - 1).toLocaleString('en-US');
+      }
+      return;
+    }
+    var save = e.target.closest('[data-jy-save]');
+    if(save){
+      var on = save.classList.toggle('is-saved');
+      save.textContent = on ? '♥ 已收藏' : '☆ 收藏';
+      showToast(on ? '已加入你的收藏' : '已取消收藏');
+      return;
+    }
+    var copy = e.target.closest('[data-jy-copy]');
+    if(copy){
+      var text = copy.getAttribute('data-jy-copy') + ' — 揭影社原创内容';
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(function(){ showToast('链接已复制到剪贴板'); }, function(){ showToast('复制失败，请手动记录标题'); });
+      } else {
+        showToast('已记录标题：' + copy.getAttribute('data-jy-copy'));
+      }
+      return;
+    }
+    var authorBtn = e.target.closest('[data-jy-author]');
+    if(authorBtn){
+      document.getElementById('jyAuthorModalBody').textContent = authorBtn.getAttribute('data-jy-author');
+      document.getElementById('jyAuthorModal').classList.add('is-open');
+      return;
+    }
+    if(e.target.closest('[data-jy-close]')){
+      e.target.closest('.jy-modal').classList.remove('is-open');
+      return;
+    }
+    if(e.target.classList.contains('jy-modal')){
+      e.target.classList.remove('is-open');
+      return;
+    }
+    var t = e.target.closest('[data-jy-toast]');
+    if(t){ showToast(t.getAttribute('data-jy-toast')); }
+  });
+
+  /* 投稿弹窗 */
+  var submitModal = document.getElementById('jySubmitModal');
+  function openSubmit(){ submitModal.classList.add('is-open'); }
+  var sb = document.getElementById('jyOpenSubmit');
+  var sbh = document.getElementById('jyOpenSubmitHero');
+  if(sb) sb.addEventListener('click', openSubmit);
+  if(sbh) sbh.addEventListener('click', function(e){ e.preventDefault(); openSubmit(); });
+
+  document.getElementById('jySubmitForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('jySubmitName').value.trim();
+    submitModal.classList.remove('is-open');
+    this.reset();
+    showToast((name || '朋友') + '，投稿已提交，编辑部将在五个工作日内回复');
+  });
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape'){
+      document.querySelectorAll('.jy-modal.is-open').forEach(function(m){ m.classList.remove('is-open'); });
+    }
+  });
+
+  /* 回到顶部 */
+  var backTop = document.getElementById('jyBackTop');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){ backTop.classList.add('is-show'); }
+    else{ backTop.classList.remove('is-show'); }
+  }, { passive:true });
+  backTop.addEventListener('click', function(){
+    window.scrollTo({ top:0, behavior:'smooth' });
+  });
+})();
+</script>
+</body>
+                  </html>
